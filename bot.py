@@ -23,9 +23,9 @@ if sys.platform == "win32":
     sys.stderr.reconfigure(encoding="utf-8")
 
 # ─── CONFIG ───────────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "TON_TOKEN")
-TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID",   "TON_CHAT_ID")
-TWELVE_DATA_KEY    = os.getenv("TWELVE_DATA_KEY",     "TA_CLE")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8314000586:AAHDswO3HfnNmhqC8IyzTOEeYYNYWnx_Puw")
+TELEGRAM_CHAT_ID   = os.getenv("TELEGRAM_CHAT_ID",   "@sniperzossie")
+TWELVE_DATA_KEY    = os.getenv("TWELVE_DATA_KEY",     "951d12906f144383b7f98f8a7938dba3")
 
 SYMBOL         = "XAU/USD"
 TF_MAIN        = "15min"
